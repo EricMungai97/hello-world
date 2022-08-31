@@ -1,10 +1,10 @@
-# hello-world
+# ***hello-world***
 
-##  My personal website for 102
+## **My personal website for 102**
 
-* This is for my class 3 demo
+* This is for my Class 3 Demo
 
-* I really like Markdown
+* I enjoy using using HTML.
 
 **Here is some bold text**.
 
