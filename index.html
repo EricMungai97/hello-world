@@ -1,35 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Ultimate Gamestop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    
     <header>
         <nav>
             <ul>
-                <li><a href="">Link 1</a></li>
+                <li><a href="https://mramirez92.github.io/102repo/">Link 1</a></li>
                 <li><a href="">Link 2</a></li>
                 <li><a href="">Link 3</a></li>
             </ul>
         </nav>
-        <h1>Ultimate Gamestop</h1> 
+        <h1>Ultimate Gamestop</h1>
+        <script>
+            let usersName = prompt('What is your name?');
+            document.write('Welcome to my page,' + usersName);
+        
+        </script>
     </header>
     <main>
-        <section>
-            <img src="videogames.jpg">
+        <section class="lower">
+            <script>
+                let x = prompt('Do you like Video Games?')
+                let message;
+
+                if (x == 'Yes'){
+                    message = 'Welcome Fellow Gamer!';
+                } else if (x == 'No'){
+                    message = 'Time to Change That.';
+                } else {
+                    message = 'Welcome to Ultimate Gamestop!';
+                }
+                document.write(message);
+
+            </script>
+            <img  src="videogames1.jpg">
             <p>Welcome to the Ulitimate GameStop where all your gaming wishes and need are fulfilled!</p>
         </section>
-        <section>
-            <p>From the Latest Video Games to  the Latest Gaming Consoles to Gaming Accessories. This is your one stop shop.</p>
+        <section class="lower">
+            <script>
+                confirm("Press a button!")
+            </script>
+            <p>From the Latest Video Games to the Latest Gaming Consoles to Gaming Accessories. This is your one stop
+                shop.</p>
         </section>
+        <section class="lower">
             <p>Our latest Video Games Include:</p>
         </section>
-        <section>
-            <img src="videogameannouncements.jpg">
+        <section class="lower">
+            <p>Do you want our latest Video Games</p>
+            <script>
+                let text;
+                if (confirm("Press a button!") == true){
+                    text = "You pressed OK!";
+                } else {
+                    text = "You canceled!";
+                }
+                document.write(text);
+            </script>
+            <img id="hero"src="videogameannouncements.jpg">
             <p>Video Game Announcements</p>
+        </section>
     </main>
     <footer>
         <p>&copy;EricKinuthia</p>
     </footer>
 </body>
+
 </html>
