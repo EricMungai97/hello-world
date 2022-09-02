@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    
+    <script src="app.js"></script>
     <header>
         <nav>
             <ul>
@@ -17,28 +17,12 @@
             </ul>
         </nav>
         <h1>Ultimate Gamestop</h1>
-        <script>
-            let usersName = prompt('What is your name?');
-            document.write('Welcome to my page,' + usersName);
-        
-        </script>
+        <script>greetUser();</script>
+        <br />
+        <script>VideoGamesFan();</script>
     </header>
     <main>
         <section class="lower">
-            <script>
-                let x = prompt('Do you like Video Games?')
-                let message;
-
-                if (x == 'yes'){
-                    message = 'Welcome Fellow Gamer!';
-                } else if (x == 'no'){
-                    message = 'Time to Change That.';
-                } else {
-                    message = 'Welcome to Ultimate Gamestop!';
-                }
-                document.write(message);
-
-            </script>
             <img  src="videogames1.jpg">
             <p>Welcome to the Ulitimate GameStop where all your gaming wishes and needs are fulfilled!</p>
         </section>
